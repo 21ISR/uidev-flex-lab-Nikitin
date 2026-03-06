@@ -27,6 +27,9 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 .main {
     padding: 20px;
@@ -36,11 +39,15 @@ body {
     background: #f4f4f4;
     padding: 20px;
     width: 25%;
+    display: flex;
+    justify-content: flex-start;
 }
 .content {
     background: #ddd;
     padding: 20px;
     gap: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 .section {
     background: white;
