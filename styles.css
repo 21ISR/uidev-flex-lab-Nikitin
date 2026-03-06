@@ -20,6 +20,8 @@ body {
     background: #444;
     color: white;
     padding: 15px;
+    display:flex;
+    justify-content: center;
 
     gap: 15px;
 }
@@ -27,9 +29,6 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    display:flex;
-    justify-content: space-evenly;
-    flex-direction: row;
 }
 .main {
     padding: 20px;
