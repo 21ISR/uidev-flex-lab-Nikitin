@@ -33,6 +33,7 @@ body {
 .main {
     padding: 20px;
     gap: 20px;
+    display: flex;
 }
 .sidebar {
     background: #f4f4f4;
