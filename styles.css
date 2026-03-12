@@ -48,7 +48,8 @@ body {
     padding: 20px;
     gap: 20px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    flex: 1;
 }
 .section {
     background: white;
